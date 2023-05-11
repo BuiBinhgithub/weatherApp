@@ -39,7 +39,7 @@ function App() {
             </div>
             <div className="temp">
               <i className="fa-solid fa-temperature-high"></i>
-              {Math.round(weather.main.temp_min - 273.15)}°C-{Math.round(weather.main.temp_max - 273,15)}°C
+              {Math.round(weather.main.temp_min - 273.15)}°C-{Math.round(weather.main.temp_max - 273.15)}°C
             </div>
             <div className="weather">
               <i className="fa-solid fa-cloud"></i> {weather.weather[0].main}

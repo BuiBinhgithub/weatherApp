@@ -50,9 +50,6 @@ function App() {
             <div className="humidity">
               <i class="fa-solid fa-droplet"></i> {weather.main.humidity}%
             </div>
-            <div className="sea_level">
-              <i class="fa-solid fa-water" style="color: #1955be;"></i> {weather.main.sea_level}m
-            </div>
           </div>
         ) : (
           <div className="weather-container">
